@@ -11,34 +11,34 @@ export default class App extends Component {
           path="/"
           render={() => (
             <div className="App">
-              <Weather city="lisbon" />
+              <Weather city="Dnipro" />
             </div>
           )}
         />
         <Route
           exact={true}
-          path="/paris"
+          path="/burgas"
           render={() => (
             <div className="App">
-              <Weather city="Paris" />
+              <Weather city="Burgas" />
             </div>
           )}
         />
         <Route
           exact={true}
-          path="/sydney"
+          path="/brno"
           render={() => (
             <div className="App">
-              <Weather city="Sydney" />
+              <Weather city="Brno" />
             </div>
           )}
         />
         <Route
           exact={true}
-          path="/san-francisco"
+          path="/jerusalem"
           render={() => (
             <div className="App">
-              <Weather city="San Francisco" />
+              <Weather city="Jerusalem" />
             </div>
           )}
         />
