@@ -1,6 +1,7 @@
 .forecast-day {
   text-align: center;
-  color: rgb(186, 186, 186);
+  color: #4e4e4e;
+  opacity: 0.8;
   font-size: 13px;
   font-weight: 400;
   height: 15px;
@@ -15,7 +16,7 @@
 }
 
 .forecast-temperature {
-  color: rgb(135, 135, 135);
+  color: #4e4e4e;
   text-align: center;
   font-size: 13px;
   font-weight: 400;
