@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactAnimatedWeather from "react-animated-weather";
+import ReactAnimatedWeather from `react-animated-weather`;
 import PropTypes from "prop-types";
 
 export default class WeatherIcon extends Component {
